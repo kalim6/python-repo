@@ -1,4 +1,4 @@
-with open('./day2/day2.txt') as raw:
+with open('./AoC/day2/day2.txt') as raw:
     data = [line.strip('\n').split('x') for line in raw.readlines()]
 for idx, value in enumerate(data):
     data[idx] = [int(i) for i in value]

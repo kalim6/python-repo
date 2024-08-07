@@ -1,9 +1,6 @@
 import numpy as np
 
-with open('./day3/day3.txt', 'r') as data:
-    data = (data.read())
-
-with open('./day5/day5.txt', 'r') as data:
+with open('./AoC/day3/day3.txt', 'r') as data:
     data = (data.read())
 
 string = '<><>v>^^<^>'

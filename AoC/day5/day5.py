@@ -1,4 +1,4 @@
-with open('./day5/day5.txt', 'r') as data:
+with open('./AoC/day5/day5.txt', 'r') as data:
     data = (data.read())
 
 
@@ -9,7 +9,7 @@ string = 'aaaaaxya'
 
 condition1 = any(a in string for a in vowels)
 
-# condition2 = True
+condition2 = True
 # for b in not_this:
 #     if b in string:
 #         condition2 = True
